@@ -12,13 +12,13 @@
     <link rel="preconnect" href="https://widgets.resy.com">
     
     <!-- Preload critical resources -->
-    <link rel="preload" href="stylesheets/all-d2827d91.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/stylesheets/all-d2827d91.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="https://use.typekit.net/mxe7kgv.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
     <!-- Fallback for browsers that don't support preload -->
     <noscript>
-      <link href="stylesheets/all-d2827d91.css" rel="stylesheet" />
+      <link href="/stylesheets/all-d2827d91.css" rel="stylesheet" />
       <link href="https://use.typekit.net/mxe7kgv.css" rel="stylesheet" />
       <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
     </noscript>
@@ -118,7 +118,6 @@
 <a href="../happy-hour.html">Happy Hour</a>
 <a href="../cheese-and-salumi.html">Cheese and Salumi</a>
 <a href="/wine.html">Wine</a>
-<a href="/wine-and-cheese-club.html">Wine and Cheese Club</a>
 <a href="../family-meals.html">Family Meals</a>
 <a href="../group-dining.html">Group Dining & Catering</a>
 <a href="../about.html">About</a>
@@ -251,8 +250,13 @@ Jacksonville, FL 32207
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script src="../javascripts/all-d40904d1.js"></script>
-    <script src="https://cf.chownowcdn.com/latest/static/integrations/ordering-modal.min.js" data-chownow-company-id="13240"></script>
-    <script src="https://widgets.resy.com/embed.js"></script><script src="../javascripts/all-d40904d1.js"></script>
+        <!-- Optimized script loading -->
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" defer></script><script src="../javascripts/all-d40904d1.js"></script>
+    <script src="https://cf.chownowcdn.com/latest/static/integrations/ordering-modal.min.js" data-chownow-company-id="13240" defer></script>
+    <script src="https://widgets.resy.com/embed.js" defer></script><script src="../javascripts/all-d40904d1.js"></script>
   </body>
 </html>
